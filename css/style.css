@@ -1,0 +1,257 @@
+/*---------banner----------*/
+#indexCarousel{
+	width: 100%;
+	
+	
+	overflow: hidden;
+	background-color: #071928;
+	
+	
+}
+
+section{
+	
+	padding-top: 60px;
+	text-align: center;
+
+}
+/*每个section由内容撑大时，这几个样式去除*/
+
+
+
+
+.section5{
+	height: 600px;
+}
+
+
+.business{
+	height: 250px;
+	background: #ffffff;
+	overflow: hidden;
+	
+margin: 0 auto;
+border-radius: 5px;
+border: 1px solid #e4ecf3;
+text-align: center;position: relative;
+
+}
+.business>p{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.business_head{
+	width: 100%;
+	height: 150px;
+	
+	overflow: hidden;
+	background:url(../images/3_mockup.jpg) no-repeat top;
+	background-size: 100%;
+
+}
+.business:hover{
+	cursor: pointer;
+	
+	box-shadow: 0px 5px 5px rgba(1,1,1,0.3);
+	padding-top: 0px;
+	transition:all 0.5s ease-out;
+}
+.business:hover .business_head{
+	background-size: 120%;
+	transition:all 0.6s ease-out;
+}
+
+.business_head>p{
+	font-size: 14px;
+
+}
+
+
+/*特色课程样式*/
+.bs_box{
+	padding-top: 20px;
+	margin: 0 auto;
+
+}
+.special_class{
+	width: 220px;
+	height: 220px;
+margin: 0 auto;
+	border-radius: 220px;
+	
+	background: #89d04f;
+}
+#special_class1{
+	background: url(../images/class1.png) no-repeat center;
+	background-color: #67b8f0;
+	background-size: 120%;
+}
+#special_class2{
+	background: url(../images/class2.png) no-repeat center;
+	background-color: #67b8f0;
+	background-size: 157%;
+}
+#special_class3{
+	background: url(../images/class2.png) no-repeat center;
+	background-color: #67b8f0;
+	background-size: 157%;
+}
+#special_class4{
+	background: url(../images/class1.png) no-repeat center;
+	background-color: #67b8f0;
+	background-size: 120%;
+}
+
+.special_class_content{
+	padding-top: 50px;
+	height: 240px;
+	text-align: center;
+	
+	}
+.special_class_content>p{
+	padding-top: 10px;
+}
+.special_class_content>span{
+	text-align: center;
+	display: block;
+	
+}
+
+.notice_model{
+	
+	height: 300px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background: #88d1f1;
+}
+.title_second{
+	height: 100px;
+
+
+}
+
+.cutApart{
+	display: block;
+	background:#f2b535;
+	width: 22px;
+	height: 3px;
+	border-radius: 1px;
+	margin: 0 auto;
+}
+.business:hover .bs_box{
+	padding-top: 10px;
+	transition:all 0.6s ease-out;
+}
+#more_bunisess{
+
+	background: #f2b535;
+	color: #fff;	
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 0px;
+	outline: none;
+}
+#do-navbar-collapse{
+	border-top: 0px;
+	
+}
+.nav_to_right{
+position: absolute;
+right: 30px;
+	
+	transition:all 1.0s ease-out;
+}
+
+.navBackground{
+	position: relative;
+	    background: #26282c;
+	    height:220px;	
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    margin: 0px;
+	    overflow: hidden;
+}
+
+.AboutUs{
+	position: relative;
+	margin-top:40px;
+	height: 400px;
+	background: url(../images/parallax-two.jpg) no-repeat center;
+	background-attachment: fixed;
+
+}
+
+.AboutUs>.title_second{
+color: #fff;
+}
+.AboutUs>.title_second>h3{
+	padding-top: 60px;
+	margin: 0 auto;
+	display: block;
+
+
+}
+.AboutUs>.title_second>span{
+	padding-top: 20px;
+	margin: 0 auto;
+	display: block;
+width: 400px;
+padding-bottom: 180px;
+}
+
+#section2_Title{
+font-size: 15px;}
+
+
+
+
+ @media (min-width: 992px){
+
+
+
+
+ }
+
+
+
+
+ @media screen and (max-width: 1100px) and (min-width: 991px){}
+
+ @media screen and (max-width: 991px) and (min-width: 768px){
+
+	
+}
+
+ @media (max-width: 768px){
+ 	
+#indexCarousel{
+	padding-top: 70px;
+	width: 100%;
+	
+	
+	overflow: hidden;
+	
+}
+
+.AboutUs>.title_second>span{
+	width: 300px;
+}
+
+
+ }
+
+
+
+ .candidate{
+ 	width: 90%;
+ 	height: 50px;
+ 	margin: 0 auto;
+
+ 	color: #fff;
+ 	font-size: 16px;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+ 
+
+ 

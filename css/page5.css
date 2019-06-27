@@ -1,0 +1,603 @@
+
+
+.section2{
+	
+	}
+.section3{
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+.section4{
+
+background-color: #c3d7a4;
+padding-bottom: 50px;
+}
+.section5{
+	
+	padding-bottom:50px;
+}
+
+#page5_title>p{
+	font-size: 18px;
+
+	display: block;
+}
+#title_for_name{
+	font-size: 18px;
+color: #e2b96a;
+}
+#title_under_name{
+	display: block;
+	font-size: 35px;
+	color:#fff;
+	margin-bottom:20px;
+}
+.every_link_to{
+	font-size: 15px;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	color:#fff;
+	text-align: center;
+	border:1px solid #fff;
+	margin: 0 auto;
+
+	
+}
+
+.slogan{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+#slogan1{
+font-size: 18px;
+color: #f2b535;
+}
+#slogan2{
+	font-size: 35px;
+}
+#slogan3{
+	font-size: 18px;
+	color: #f2b535;
+}
+#slogan>a{
+    text-decoration: none;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	color:#fff;
+	text-align: center;
+	background-color: #f2b535;
+	margin: 0 auto;
+	margin-top:20px;
+	
+}
+#cost_big_title>#cost_title_on_top{
+	display: block;
+	width: 100%;
+font-size: 18px;
+color: #f2b535;
+}
+#cost_big_title{
+	padding: 20px;
+	text-align: center;
+	
+}
+#cost_big_title>#cost_h1{
+	display: block;
+	margin-top: 30px;
+   
+	font-size: 30px;
+	width: 100%;
+	color: #000;
+}
+.cutApart{
+	display: block;
+
+	background:#f2b535;
+	width: 22px;
+	height: 3px;
+	border-radius: 1px;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.cost{
+width: 90%;
+height: 400px;
+padding: 10px;
+
+border-radius: 5px;
+box-shadow: 4px 4px 12px rgba(0,0,0,0.4);
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+
+}
+.cost>span{
+	display: block;
+	text-align: center;
+
+}
+.cost>h3{
+	
+	font-size: 18px;
+}
+.cost>a{
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	color:#fff;
+	text-align: center;
+	background-color: #f2b535;
+	margin: 0 auto;
+	margin-top:40px;
+}
+.money{
+	color: #f2b535;
+	font-size: 35px;
+}
+
+
+
+/*section2*/
+
+#teacher_qualification_examination_title{
+	width: 300px;
+	background-color: #88d1f1;
+	/*box-shadow:4px 4px 12px rgba(0,0,0,0.5);*/
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.examination_introduce{
+	width: 300px;
+	
+	padding: 20px;
+	
+	
+
+
+
+}
+
+
+#human_resources_examination_title{
+	width: 300px;
+	background-color: #88d1f1;
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+
+}
+
+#human_resources_examination_introduce{
+
+
+
+}
+/*section3*/
+.section3>h4{
+	font-size: 18px;
+	color: #f2b535;
+
+}
+#superiorityAndFaculty{
+	padding-top:20px;
+}
+#civil_service_exam_title{
+	padding:20px;
+	
+	width: 300px;
+	height: 200px;
+	background-color: #f2b535;
+	text-align: center;
+
+
+}
+
+/*特色课程所有标题块共有样式*/
+.general_regulation{
+	color: #fff;
+	display: block;
+	font-size: 18px;
+
+
+}
+
+.curriculum_title{
+	margin-top: 20px;
+	
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	color: #fff;
+
+}
+.english_curriculum_title{
+	
+	margin-bottom: 30px;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	color: #fff;
+
+}
+
+/*所有特色课程内容块共有样式*/
+
+.examination_introduce>p{
+	font-size: 14px;
+	text-align: left;
+}
+.examination_introduce>h2{
+	font-size: 18px;
+	text-align: left;
+	color: #f2b535;
+}
+
+
+
+#civil_service_exam_introduce{
+	
+	height: 380px;
+	
+	color: #fff;
+	background-color: #3d3d3d;
+
+
+
+}
+
+#civil_service_exam_introduce>h2{
+	font-size: 18px;
+	
+	color: #f2b535;
+}
+#superiority_introduce{
+width: 300px;
+
+color: #fff;
+}
+#superiority_introduce>h2{
+	
+	color: #f2b535;
+	font-size: 18px;
+	
+}
+#faculty{
+	width: 300px;
+	height: 500px;
+
+}
+.teacher{
+	padding: 10px;
+	width: 150px;
+	height: 300px;
+	float: left;
+
+}
+.teacher>.head_sculture{
+	width: 30px;
+	height: 30px;
+	background-color: #f2b535;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 100%;
+	color: #fff;
+	margin: 0 auto;
+}
+.teacher>.teacher_name{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.teacher>.teacher_introduce{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+#faculty>span{
+	display: block;
+	width: 300px;
+	color: #fff;
+	text-align: center;
+}
+#faculty>h2{
+	font-size: 18px;
+	color: #f2b535;
+	display: block;
+	
+	text-align: center;
+}
+
+/*准备和联系方式*/
+#howToPrepare{
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border-top:4px solid #a51c30;
+	background-color: #fff;
+}
+#getInTouch{
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border-top:4px solid #a51c30;
+	background-color: #fff;
+}
+.how_to_connection{
+	margin-top: 50px;
+}
+.how_to_do{
+	margin-top: 50px;
+}
+/*大屏上*/
+@media (min-width: 1100px){
+	
+
+
+
+#page5_title{
+	width: 300px;
+	height: 320px;
+  
+	background-color:rgba(1,1,1,0.6);
+	float: right;
+    color:#fff;
+	
+	text-align: center;
+
+
+}
+
+
+}
+/*除手机端大屏和中屏*/
+@media (min-width: 768px){
+	#page5_title{
+	width: 300px;
+	height: 320px;
+    padding:20px;
+	background-color:rgba(1,1,1,0.6);
+	float: right;
+    color:#fff;
+	margin-right: 120px;
+	text-align: center;
+
+
+}
+
+#slogan{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 80px;
+	background-color: #fff;
+	padding: 10px;		
+	
+	box-shadow:4px 4px 12px rgba(0,0,0,0.4);
+}
+
+#page5_title{
+	width: 300px;
+	height: 320px;
+  
+	background-color:rgba(1,1,1,0.6);
+	float: right;
+    color:#fff;
+	
+	text-align: center;
+
+
+}
+.section1{
+	/*margin-top: 80px;*/
+	height: 600px;
+
+	background: url(../images/5.jpg) no-repeat center;
+	background-size:80% 100%;
+	background-color: #92b8cc;
+	padding-top:100px;
+	
+}
+
+
+#civil_service_exam_title{
+	float: right;
+	
+}
+#civil_service_exam_introduce{
+   float: left;
+}
+#superiority_introduce{
+	float: right;
+}
+
+#teacher_qualification_examination_title{
+	float: left;
+	margin-top: 100px;
+	margin-left: 120px;
+}
+#section2_modle3{
+	float: right;
+}
+#human_resources_examination_title{
+	margin-top: 100px;
+}
+#human_resources_examination_introduce{
+	float: left;
+	
+	margin-left: 120px;
+}
+
+#civil_service_exam_introduce>p{
+	
+	text-align: left;
+}
+#civil_service_exam_introduce>h2{
+	
+	text-align: left;
+	
+}
+#page5_title>p{
+	padding-bottom: 20px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px){
+#page5_title{
+	margin-right: 60px;
+}
+
+
+#slogan{
+margin-left: 60px;
+}
+#teacher_qualification_examination_title{
+margin-left: 60px;
+}
+
+#human_resources_examination_introduce{
+	margin-left: 60px;
+
+}
+
+
+}
+/*手机上*/
+ @media (max-width: 767px){
+ 	.section1{
+	padding-top: 70px;
+	height: 380px;
+	
+	background: url(../images/5.jpg) no-repeat center;
+	background-size: 100%;
+	
+}
+#page5_title{
+	width: 300px;
+	height: 256px;
+  
+	background-color:rgba(1,1,1,0.6);
+	margin: 0 auto;
+    color:#fff;
+	
+	text-align: center;
+
+
+}
+#slogan_model{
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#slogan{
+	width: 300px;
+	height: 200px;
+	
+	margin: 0 auto;
+	background-color: #fff;			
+	box-shadow:4px 4px 12px rgba(0,0,0,0.4);
+}
+#page5_title_modle{
+	padding: 0px;
+}
+
+#civil_service_exam_title{
+margin: 0 auto;
+}
+#civil_service_exam_introduce{
+ margin: 0 auto;
+}
+#section3_container1{
+	padding: 0px;
+}
+#superiority_introduce{
+	margin: 0 auto;
+	text-align: center;
+}
+#faculty{
+	margin: 0 auto;
+}
+.cutApart{
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+
+
+#superiorityAndFaculty{
+	padding: 0px;
+
+}
+#section2_container1{
+	padding: 0px;
+}
+
+
+
+#section2_container2{
+	padding: 0px;
+}
+
+#teacher_qualification_examination_title{
+	margin: 0 auto;
+}
+#teacher_qualification_examination_introduce{
+	margin: 0 auto;
+	
+}
+#human_resources_examination_title{
+	margin: 0 auto;
+}
+#human_resources_examination_introduce{
+	margin: 0 auto;
+
+}
+.examination_introduce>h2{
+	text-align: center;
+ }
+ .examination_introduce>p{
+	text-align: center;
+ }
+
+#section2_modle1{
+	padding-top: 30px;
+}
+
+#section4_container{
+	padding: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+}
+

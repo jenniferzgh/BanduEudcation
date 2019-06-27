@@ -1,0 +1,247 @@
+
+body{
+	background: #88d1f1;
+}
+
+span{
+	display: block;
+	text-align: center;
+	
+
+}
+
+
+#xinxi_everymodle>span{
+	display: block;
+	width: 80px;	
+	float: left;
+	font-size: 16px;
+	text-align: right;
+
+}
+#xinxi_everymodle{
+	width: 300px;
+	height: 50px;
+	
+	margin: 0 auto;	
+
+}
+.fillOutInput{
+	border:0px;
+	width: 174px;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+
+	display:block;
+	float: right;
+	outline: none;
+	
+	margin-right: 20px;		
+
+}
+#title{
+
+	background-color: #fff;
+	height: 200px;
+}
+#title>#title1{
+	font-size: 24px;
+
+}
+#title>#title2{
+	font-size: 22px;
+
+}
+#title3{
+	font-size: 22px;
+	text-align: center;
+	
+}
+#summary{
+	font-size: 16px;
+}
+#under_title_logo{ 
+	margin: 0 auto;
+	width: 40px;
+height: 40px;
+background:url(../images/logo.png) no-repeat center;
+background-size: 100%;}
+#metterNeedAtention{
+	font-size: 16px;
+}
+.inputFocus{
+	border-bottom: 1px solid #f2b535;
+}
+#sumbit{
+	
+
+}
+#submit {
+
+   border: 0px;
+	width: 80px;
+	height: 26px;
+	float: right;
+	margin-right: 5px;
+    outline: none;
+    border-radius: 2px;
+	background-color:#f2b535;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+#mainBackground{
+	padding-top: 30px;
+	height: 480px;
+	background: url(../images/map.PNG) no-repeat bottom;
+	background-size: 100% 480px;
+	cursor: pointer;
+		
+
+}
+
+
+#mainFooter{
+	height: 100px;
+	background: #fff;
+	margin-bottom: 100px;
+
+}
+@media (min-width: 991px){
+#xinxi{
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	margin: 0 auto;
+	
+	width: 350px;
+	height: 400px;
+	margin-left: 0px;
+	padding-top: 30px;
+	background:#fff;
+}
+#tittleAndAtention{
+	float:right;
+	height: 400px;
+	width: 350px;
+	background: #fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	
+
+}
+
+#xinxi_everymodle>span:hover{
+	font-size: 18px;
+	transition:all 0.3s ease-out;
+}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+
+#xinxi{
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	
+	position: relative;
+	margin: 0 auto;
+	width: 350px;
+	height: 370px;
+	
+	padding-top: 30px;
+	background:#fff;
+}
+
+
+#tittleAndAtention{
+	position: relative;
+	margin: 0 auto;
+	height: 140px;
+	width: 350px;
+	background: #fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	
+
+}
+#xinxi_everymodle{
+	width: 280px;
+	height: 50px;
+	
+	margin: 0 auto;	
+
+}
+#mainBackground{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 30px;
+	height: 550px;
+	background: url(../images/map.PNG) no-repeat bottom;
+	background-size: 100% 550px;
+	cursor: pointer;
+		
+
+}
+#mainBackground{
+
+}
+
+
+
+
+
+}
+
+
+
+ @media (max-width: 768px){
+#xinxi{
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	
+	position: relative;
+	margin: 0 auto;
+	width: 280px;
+	height: 350px;
+	
+	padding-top: 30px;
+	background:#fff;
+}
+
+
+#tittleAndAtention{
+	position: relative;
+	margin: 0 auto;
+	height: 140px;
+	width: 280px;
+	background: #fff;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	
+
+}
+#xinxi_everymodle{
+	width: 280px;
+	height: 45px;
+	
+	margin: 0 auto;	
+
+}
+#mainBackground{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	height: 530px;
+	background: url(../images/map.PNG) no-repeat bottom;
+	background-size: 100% 530px;
+	cursor: pointer;
+		
+
+}
+#title>#title1{
+	font-size: 22px;
+
+}
+#summary{
+	font-size: 14px;
+}
+#metterNeedAtention{
+	font-size: 14px;
+}
+#xinxi_everymodle>span {
+	font-size: 14px;
+}
+}

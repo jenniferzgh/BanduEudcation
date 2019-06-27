@@ -1,0 +1,171 @@
+#left_nav{
+	padding: 0px;
+	margin-top: 80px;
+	font-size: 16px;
+
+}
+#pages{
+	margin-top: 80px;
+}
+#leads{
+	float: left;
+}
+#sanjiao{
+	width: 0;
+  height: 0;
+  border-bottom: 25px solid #fff;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-left: 25px solid transparent;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
+#bookmarker{
+	width: 25%;
+	height: 400px;
+	background: #88d1f1;
+	float: right;
+}
+
+
+
+
+#page1{
+	height: 500px;
+}
+a{
+	margin: 0 auto;
+}
+#left_nav>ul{
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#page1_images1{
+	margin-top:10px;
+	width: 100%;
+	height: 300px;
+	background:url(../images/class1.png) no-repeat center;
+	background-size: 100% 300px;
+}
+
+#left_text>h2{
+	padding-top: 10px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+#left_text>span{
+padding-top: 30px;
+margin: 0 auto;
+display: block;
+text-align: center;
+font-size: 18px;
+width: 90%;
+
+}
+#under_page1_images>span{
+	text-align: center;
+	display: block;
+	margin-top:20px;
+	font-size: 18px;}
+@media screen and (min-width: 992px){
+	.container{
+	margin: 0px;
+	padding: 0px;
+}
+#left_text{
+	padding-top: 50px;
+}
+
+}
+@media screen and (max-width: 991px){
+
+
+#left_nav{
+	padding: 0px;
+	margin-top: 70px;
+	font-size: 16px;
+
+}
+
+#left_nav>ul{
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+}
+#bookmarker{
+	width: 0px;
+	height: 400px;
+	background: #88d1f1;
+	float: right;
+}
+#sanjiao{
+	width: 0;
+  height: 0;
+  border:0px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+
+#left_nav{
+	padding: 0px;
+	margin-top: 80px;
+	font-size: 16px;
+	height: 800px;
+
+}
+
+}
+
+@media screen and (max-width: 690px) and (min-width: 510px){
+#left_nav{
+	width: 30%;
+	padding: 0px;
+	margin-top: 70px;
+	font-size: 16px;
+
+}
+
+
+
+}
+@media screen and (max-width: 768px) and (min-width: 690px){
+#left_nav{
+	width: 30%;
+	padding: 0px;
+	margin-top: 70px;
+	font-size: 16px;
+
+}
+
+
+}
+
+@media (max-width: 510px){
+
+h2{
+	font-size: 18px;
+}
+span{
+	font-size: 15px;
+}
+#page1_images1{
+	margin-top:10px;
+	width: 100%;
+	height: 100px;
+	background:url(../images/class1.png) no-repeat center;
+	background-size: 100% 300px;
+}
+}
+
+
+
+
+

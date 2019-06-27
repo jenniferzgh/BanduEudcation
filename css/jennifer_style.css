@@ -1,0 +1,100 @@
+body,html,ul,li,h2{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+nav>li{
+	list-style: none;
+
+	
+}
+a{text-decoration: none;}
+
+header{
+	min-width: 1100px;
+	height: 900px;
+	background: url(../images/header-app-image.jpg) no-repeat center;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: 1;
+}
+	
+nav{
+	margin: 0 auto;	
+	width: 100%;
+	height: 80px;
+	
+	position: fixed;
+
+
+}
+.nav{
+	background:rgba(0,0,0,0);
+}
+.navScoll{
+	z-index: 1000;
+	background-color: rgba(1,1,1,0.6);
+	transition:all 0.3s ease-out;
+	height: 60px;
+
+}
+nav>li{
+	height: 50px;
+	line-height: 50px;
+	width: 16.6%;
+float: left;
+text-align: center;
+cursor: pointer;
+
+}
+nav>li>a{
+	display: block;
+	height: 50px;
+	text-decoration: none;
+	
+}
+.mainbody{
+	width: 100%;
+	height: 1200px;
+
+}
+.modle1{
+	width: 100%;
+	height: 800px;
+/*	z-index: 2;*/
+}
+.index_two{
+	width: 100%;
+	height: 600px;
+	background: url(../images/parallax-two.jpg) no-repeat bottom;
+	background-size: 100%;
+	background-attachment: fixed;
+	z-index: 1;
+
+}
+.to_top{
+	visibility:hidden; 	
+	width:50px;
+	height: 50px;
+	background-color: #08aba6;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+}
+.to_top:hover{
+	background: none;
+	color:  #08aba6;
+	transition-delay:0.1s;
+}
+.show{
+	position: fixed;
+	bottom: 30px;
+	visibility: visible;
+	transition:all 0.5s ease-out;
+}

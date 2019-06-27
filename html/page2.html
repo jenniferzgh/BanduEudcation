@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+	<title>广州市伴读教育|特色课程</title>
+	<script  src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/page2.css">
+	<link rel="stylesheet" type="text/css" href="../css/head.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<script  src="../js/common.js"></script>
+    
+
+</head>
+<script >
+$(document).ready(function(){
+   $(".page").hide();
+  
+  $("#leads li").click(function(){
+  $("#pages [is_page='true']").hide();
+    $("#pages [page='" + $( this ).attr("lead") + "']").show();
+    
+});
+
+
+
+});
+
+</script>
+<body>
+<header id="header" class="header">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid "> 
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img src="../images/logo.png" id="logo">
+        <h1>广州市伴读教育科技有限公司</h1>
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li ><a href="../index.html">首页</a></li>
+             <li class="ac"><a href="./page2.html">特色课程</a></li>      
+            <li><a href="./page4.html">马上报名</a></li>
+            <li><a href="./page5.html">招生简章</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+</header>
+<div  class="container">
+	<div class="col-xs-5 col-sm-3 col-md-2 col-lg-2 column" id="left_nav">
+	  
+		<ul class="nav nav-pills nav-stacked" id="leads">
+        
+          <li lead="page_1" id="page_nav1"><a href="#" >教师资格证</a></li>
+          <li lead="page_2" id="page_nav2"><a href="#">人力资源管理师</a></li>
+          <li lead="page_3" id="page_nav3"><a href="#">公务员</a></li>
+          <li lead="page_4" id="page_nav4"><a href="#">二级证书</a></li>
+          <li lead="page_5" id="page_nav5"><a href="#">二级证书</a></li>
+          <li lead="page_6" id="page_nav6"><a href="#">二级证书</a></li>
+          
+        </ul>
+        <div id='bookmarker'></div>
+        <div id="sanjiao"></div>
+	</div>
+	<div class="column">	    
+        <ul id="pages">
+            <div page="page_1" is_page='true' id="page1" >
+                <div class="col-xs-7 col-sm-9 col-md-5 col-lg-5" id='left_text'>
+                    <h2>教师资格证</h2>
+                 
+                    <span> 教师资格证是教育行业从业人员许可证，
+                    根据教育部《中小学教师资格证考试暂行办法》，
+                    自2015年开始，教师资格证实行全国统考，
+                    由教育部考试中心统一制定标准和考试大纲，
+                    组织笔试和面试。一年考试两次（每年3月、11月）。
+                    教师资格证实行国考后，考试内容增加，难度增大。
+                     参加专业培训，是通过考试的最佳途径。
+                    </span>
+                </div>
+                <div class="col-xs-7 col-sm-9 col-md-5 col-lg-5" id="rght_text_and_images">
+                    <div id="page1_images1"></div>
+                    <div id="under_page1_images">
+                        <span>
+                            教师资格分（自上而下兼容）：
+                            （一）幼儿园教师资格；
+                            （二）小学教师资格；
+                            （三）初级中学教师和初级职业学校文化课、专业课教师资格（以下统称初级中学教师资格）；
+                           
+
+
+                        
+
+
+</span>
+
+                    </div>
+                </div>                
+            </div>
+            <div page="page_2" is_page='true' class="page" id="page2"  class="container">
+                <h1>组织架构</h1>
+            </div>
+            <div page="page_3" is_page='true' class="page" id="page3" class="container">
+                <h1>研究生导师</h1>                            
+            </div>
+            <div page="page_4" is_page='true' class="page" class="container">
+                <h1>略</h1>
+            </div>
+            <div page="page_5" is_page='true' class="page" class="container">
+                <h1>略</h1>
+            </div>
+            <div page="page_6" is_page='true' class="page" class="container">
+                <h1>略</h1>
+            </div>
+        </ul>
+	</div>
+</div>
+    <!-- 底部内容 -->
+	<footer id="footer">
+		<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 " id="footer_model1" >
+				<div class="footer_logo"></div>
+				<h3>伴读教育，以服务为主，以专业为重</h3>
+				<h4>备案号：</h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="footer_model2">
+				<h4>联系我们：</h4>
+				<li><a href="tel:15627367574">联系电话:</a></li>
+				<li><a href="mailto:2596270932@qq.com">email:</a></li>
+				<li><a href="http://j.map.baidu.com/5kJSO">地址:华广B9一楼11号•伴读教育（出校门右转前行50米）</a></li>
+				<li><a href=""></a></li>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="footer_model3">
+
+			    <div id="wechat_images"></div>
+                <h4>微信公众号：伴读教育</h4>
+                <h4><a href="www.xingkong.us">技术支持：华南理工大学广州学院星空学生创新中心</a></h4>
+			</div>
+		</div>
+	</footer>
+	<button class="to_top">^</button>
+</div>
+</body>
+</html>
